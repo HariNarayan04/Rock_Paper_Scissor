@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: beige;
+}
+.gName{
+    color: white;
+    background-color: midnightblue;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+pre{
+    background-color: midnightblue;
+    font-size: 6vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.choices{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: white; */
+}
+img{
+    height: 30vmin;
+    width: 30vmin;
+    border-radius: 15vmin;
+    object-fit: cover;
+}
+.choice{
+    height: 31vmin;
+    width: 31vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover{
+    background-color: rgba(113, 54, 26, 0.83);
+    border-radius: 50%;
+}
+.score{
+    background-color: aqua;
+    height: 10vh;
+    margin-top: 7vmin;
+    display: flex;
+    justify-self: center;
+}
+.ourScore{
+    /* background-color: black; */
+    width: 25vw;
+    font-size: 2vh;
+    color: black;
+    text-align: center;
+}
+#os{
+    font-size: 7vh;
+}
+.computerScore{
+    /* background-color: white; */
+    width: 25vw;
+    font-size: 2vh;
+    color: black;
+    text-align: center;
+}
+#cs{
+    font-size: 7vh;
+}
+
+.msgContainer{
+    margin-top: 15vmin;
+    width: 50vw;
+    align-self: center;
+    margin-left: 25%;
+}
+#msg{
+    background-color: burlywood;
+    font-size: 6vh;
+    text-align: center;
+    line-height: 7vh;
+}
+
+.reset{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+#reset_btn{
+    padding: 0.5rem;
+    font-size: inherit;
+    color: white;
+    background-color: midnightblue;
+    border-radius: 5%;
+}
+
+#reset_btn:hover {
+    transform: translateY(-3px); /* Move the button slightly upwards */
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3); /* Make the shadow more pronounced */
+}
+
+#reset_btn:active {
+    transform: translateY(2px); /* Slight downward movement */
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); /* Reduce shadow */
+}
