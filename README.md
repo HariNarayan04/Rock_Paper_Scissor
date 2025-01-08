@@ -40,7 +40,7 @@ This project is licensed under the MIT License.
 
 ## Author
 
-- [Your Name](https://github.com/yourusername)
+- [Harinarayan](https://github.com/HariNarayan04)
 
 Feel free to contribute to this project by submitting issues or pull requests.
 
